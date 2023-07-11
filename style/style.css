@@ -2,6 +2,9 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 .container{
     width: 80%;
@@ -16,6 +19,7 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+
 /* First Section */
 
 .first-section{
@@ -78,7 +82,7 @@ body{
     text-decoration: underline;
 }
 .image-info-1{
-    height: 538px;
+    height: 500px;
     padding: 0px 30px 0px 30px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -90,7 +94,7 @@ body{
     width: 250px;
 }
 .image-info-2{
-    height: 538px;
+    height: 500px;
     padding: 0px 30px 0px 30px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
@@ -101,7 +105,7 @@ body{
     width: 250px;
 }
 .image-info-3{
-    height: 538px;
+    height: 500px;
     padding: 0px 30px 0px 30px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -156,6 +160,40 @@ body{
     max-width: 200px;
 }
 
+/* flower-card-section */
+.flower-card-section h1{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.flower-card-section p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.flower-card-column{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.flower-card-content{
+    background-color: #f8e4e8;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+.flower-card-content-span{
+    font-weight: bold;
+}
+.flower-card-content img{
+    width: 240px;
+}
 /* instagram-section */
 .instagram-section{
     margin: 100px 100px;

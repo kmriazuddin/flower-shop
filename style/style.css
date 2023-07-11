@@ -161,13 +161,13 @@ body{
 }
 
 /* flower-card-section */
-.flower-card-section h1{
+.flower-card-title{
     text-align: center;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-.flower-card-section p{
+.flower-card-description{
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;

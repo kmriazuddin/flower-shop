@@ -75,6 +75,7 @@ body{
 }
 .image-description{
     text-align: center;
+    text-decoration: underline;
 }
 .image-info-1{
     height: 538px;
@@ -208,6 +209,39 @@ body{
     border: none;
     border-radius: 8px;
     background: #FFF;
+}
+
+/* contact-us-content */
+.contact-us{
+    background-color: #f8e4e8;
+}
+.contact-us-column{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    padding: 20px 0;
+}
+.contact-us-content{
+    text-align: center;
+}
+.contact-us-content img{
+    width: 400px;
+    margin-top: 20px;
+}
+.contact-us-description{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 100%;
 }
 
 footer{
